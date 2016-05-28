@@ -4,7 +4,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let network = Network()
+    private let network = Network()
     
     @IBOutlet weak var resultTextView: UITextView!
     
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController {
-    func addObserver() {
+    private func addObserver() {
         NSNotificationCenter.defaultCenter().addObserver(
             self,
             selector: #selector(resultReceived),
@@ -24,7 +24,7 @@ extension ViewController {
             object: nil)
     }
     
-    func resultReceived(notification: NSNotification) {
+    @objc private func resultReceived(notification: NSNotification) {
         if let resultString = notification.object as? String {
             dispatch_async(dispatch_get_main_queue(), {
                 self.resultTextView.text = resultString
