@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68F7F4BFAEC2AEB5AC77718D /* Pods_Board_Game_Geek_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9F94317D65F30C4F533B35 /* Pods_Board_Game_Geek_Test.framework */; };
+		FA28A41D1CF9E29100BA3D2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28A41C1CF9E29100BA3D2C /* AppDelegate.swift */; };
+		FA28A41F1CF9E29100BA3D2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28A41E1CF9E29100BA3D2C /* ViewController.swift */; };
+		FA28A4221CF9E29100BA3D2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA28A4201CF9E29100BA3D2C /* Main.storyboard */; };
+		FA28A4241CF9E29100BA3D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA28A4231CF9E29100BA3D2C /* Assets.xcassets */; };
+		FA28A4271CF9E29100BA3D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA28A4251CF9E29100BA3D2C /* LaunchScreen.storyboard */; };
+		FA6F5BA21CF9E4B700F4E7AF /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F5BA11CF9E4B700F4E7AF /* Network.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08A3D39CAA3FE3BB87C82D19 /* Pods-Board Game Geek Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Board Game Geek Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Board Game Geek Test/Pods-Board Game Geek Test.release.xcconfig"; sourceTree = "<group>"; };
+		43AA69909CF0819DB6E6CC01 /* Pods-Board Game Geek Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Board Game Geek Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Board Game Geek Test/Pods-Board Game Geek Test.debug.xcconfig"; sourceTree = "<group>"; };
+		FA28A4191CF9E29000BA3D2C /* Board Game Geek Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Board Game Geek Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA28A41C1CF9E29100BA3D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA28A41E1CF9E29100BA3D2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA28A4211CF9E29100BA3D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA28A4231CF9E29100BA3D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA28A4261CF9E29100BA3D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA28A4281CF9E29100BA3D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6F5BA11CF9E4B700F4E7AF /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FE9F94317D65F30C4F533B35 /* Pods_Board_Game_Geek_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Board_Game_Geek_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA28A4161CF9E29000BA3D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F7F4BFAEC2AEB5AC77718D /* Pods_Board_Game_Geek_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4D5CA9C3610904B685085C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43AA69909CF0819DB6E6CC01 /* Pods-Board Game Geek Test.debug.xcconfig */,
+				08A3D39CAA3FE3BB87C82D19 /* Pods-Board Game Geek Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8716B1F75B8ADF02554D6052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9F94317D65F30C4F533B35 /* Pods_Board_Game_Geek_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA28A4101CF9E29000BA3D2C = {
+			isa = PBXGroup;
+			children = (
+				FA28A41B1CF9E29100BA3D2C /* Board Game Geek Test */,
+				FA28A41A1CF9E29000BA3D2C /* Products */,
+				0B4D5CA9C3610904B685085C /* Pods */,
+				8716B1F75B8ADF02554D6052 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA28A41A1CF9E29000BA3D2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA28A4191CF9E29000BA3D2C /* Board Game Geek Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA28A41B1CF9E29100BA3D2C /* Board Game Geek Test */ = {
+			isa = PBXGroup;
+			children = (
+				FA28A41C1CF9E29100BA3D2C /* AppDelegate.swift */,
+				FA28A41E1CF9E29100BA3D2C /* ViewController.swift */,
+				FA6F5BA11CF9E4B700F4E7AF /* Network.swift */,
+				FA28A4201CF9E29100BA3D2C /* Main.storyboard */,
+				FA28A4231CF9E29100BA3D2C /* Assets.xcassets */,
+				FA28A4251CF9E29100BA3D2C /* LaunchScreen.storyboard */,
+				FA28A4281CF9E29100BA3D2C /* Info.plist */,
+			);
+			path = "Board Game Geek Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA28A4181CF9E29000BA3D2C /* Board Game Geek Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA28A42B1CF9E29100BA3D2C /* Build configuration list for PBXNativeTarget "Board Game Geek Test" */;
+			buildPhases = (
+				0B118A64063D284CB0799C92 /* Check Pods Manifest.lock */,
+				FA28A4151CF9E29000BA3D2C /* Sources */,
+				FA28A4161CF9E29000BA3D2C /* Frameworks */,
+				FA28A4171CF9E29000BA3D2C /* Resources */,
+				C7E78AC576E4E8BDCBCF01CD /* Embed Pods Frameworks */,
+				1FB6F53405515A753F368E6F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Board Game Geek Test";
+			productName = "Board Game Geek Test";
+			productReference = FA28A4191CF9E29000BA3D2C /* Board Game Geek Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA28A4111CF9E29000BA3D2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zuningo e.U.";
+				TargetAttributes = {
+					FA28A4181CF9E29000BA3D2C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA28A4141CF9E29000BA3D2C /* Build configuration list for PBXProject "Board Game Geek Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA28A4101CF9E29000BA3D2C;
+			productRefGroup = FA28A41A1CF9E29000BA3D2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA28A4181CF9E29000BA3D2C /* Board Game Geek Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA28A4171CF9E29000BA3D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA28A4271CF9E29100BA3D2C /* LaunchScreen.storyboard in Resources */,
+				FA28A4241CF9E29100BA3D2C /* Assets.xcassets in Resources */,
+				FA28A4221CF9E29100BA3D2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B118A64063D284CB0799C92 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1FB6F53405515A753F368E6F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Board Game Geek Test/Pods-Board Game Geek Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E78AC576E4E8BDCBCF01CD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Board Game Geek Test/Pods-Board Game Geek Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA28A4151CF9E29000BA3D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA28A41F1CF9E29100BA3D2C /* ViewController.swift in Sources */,
+				FA28A41D1CF9E29100BA3D2C /* AppDelegate.swift in Sources */,
+				FA6F5BA21CF9E4B700F4E7AF /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA28A4201CF9E29100BA3D2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA28A4211CF9E29100BA3D2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA28A4251CF9E29100BA3D2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA28A4261CF9E29100BA3D2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA28A4291CF9E29100BA3D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA28A42A1CF9E29100BA3D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA28A42C1CF9E29100BA3D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AA69909CF0819DB6E6CC01 /* Pods-Board Game Geek Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Board Game Geek Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuningo.Board-Game-Geek-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA28A42D1CF9E29100BA3D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A3D39CAA3FE3BB87C82D19 /* Pods-Board Game Geek Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Board Game Geek Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuningo.Board-Game-Geek-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA28A4141CF9E29000BA3D2C /* Build configuration list for PBXProject "Board Game Geek Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA28A4291CF9E29100BA3D2C /* Debug */,
+				FA28A42A1CF9E29100BA3D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA28A42B1CF9E29100BA3D2C /* Build configuration list for PBXNativeTarget "Board Game Geek Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA28A42C1CF9E29100BA3D2C /* Debug */,
+				FA28A42D1CF9E29100BA3D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA28A4111CF9E29000BA3D2C /* Project object */;
+}
