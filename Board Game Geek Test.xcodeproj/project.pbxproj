@@ -14,6 +14,7 @@
 		FA28A4241CF9E29100BA3D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA28A4231CF9E29100BA3D2C /* Assets.xcassets */; };
 		FA28A4271CF9E29100BA3D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA28A4251CF9E29100BA3D2C /* LaunchScreen.storyboard */; };
 		FA6F5BA21CF9E4B700F4E7AF /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F5BA11CF9E4B700F4E7AF /* Network.swift */; };
+		FA6F5BA41CF9E5A100F4E7AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F5BA31CF9E5A100F4E7AF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FA28A4261CF9E29100BA3D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA28A4281CF9E29100BA3D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA6F5BA11CF9E4B700F4E7AF /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FA6F5BA31CF9E5A100F4E7AF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FE9F94317D65F30C4F533B35 /* Pods_Board_Game_Geek_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Board_Game_Geek_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				FA28A41C1CF9E29100BA3D2C /* AppDelegate.swift */,
 				FA28A41E1CF9E29100BA3D2C /* ViewController.swift */,
 				FA6F5BA11CF9E4B700F4E7AF /* Network.swift */,
+				FA6F5BA31CF9E5A100F4E7AF /* Constants.swift */,
 				FA28A4201CF9E29100BA3D2C /* Main.storyboard */,
 				FA28A4231CF9E29100BA3D2C /* Assets.xcassets */,
 				FA28A4251CF9E29100BA3D2C /* LaunchScreen.storyboard */,
@@ -216,6 +219,7 @@
 				FA28A41F1CF9E29100BA3D2C /* ViewController.swift in Sources */,
 				FA28A41D1CF9E29100BA3D2C /* AppDelegate.swift in Sources */,
 				FA6F5BA21CF9E4B700F4E7AF /* Network.swift in Sources */,
+				FA6F5BA41CF9E5A100F4E7AF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

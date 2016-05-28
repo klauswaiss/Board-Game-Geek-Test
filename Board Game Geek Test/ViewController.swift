@@ -4,8 +4,31 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let network = Network()
+    
+    @IBOutlet weak var resultTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        addObserver()
+        network.doRequest()
+    }
+}
+
+extension ViewController {
+    func addObserver() {
+        NSNotificationCenter.defaultCenter().addObserver(
+            self,
+            selector: #selector(resultReceived),
+            name: "bgg",
+            object: nil)
+    }
+    
+    func resultReceived(notification: NSNotification) {
+        if let resultString = notification.object as? String {
+            dispatch_async(dispatch_get_main_queue(), {
+                self.resultTextView.text = resultString
+            });
+        }
     }
 }
